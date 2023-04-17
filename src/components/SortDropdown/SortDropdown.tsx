@@ -30,7 +30,7 @@ export function SortDropdown() {
 				Sort By
 			</Dropdown.Header>
 			<Dropdown.Toggle className={`${sortDropdown}`}>{sortToggleText}</Dropdown.Toggle>
-			<Dropdown.Menu className={sortDropdownMenu}>
+			<Dropdown.Menu flip={true} className={sortDropdownMenu}>
 				{isSortFilterActive(sortToggleText) && (
 					<Dropdown.Item onClick={handleSortClick} className={sortDropdownOption} href="all">
 						Default

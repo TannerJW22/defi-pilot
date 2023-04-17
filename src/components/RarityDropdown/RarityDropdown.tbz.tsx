@@ -16,7 +16,7 @@ const rarityDropdownMenu = tailbreeze({
 });
 
 const rarityDropdownOption = tailbreeze({
-	size: "h-[30px]",
+	size: "h-[28px]",
 	text: "text-base text-blue6 font-semibold",
 	hover: "hover:bg-opacity-20",
 });

@@ -36,7 +36,7 @@ export function CategoryDropdown() {
 			<Dropdown.Toggle className={`${categoryDropdown} ${categoryToggleStyle}`}>
 				{categoryToggleText}
 			</Dropdown.Toggle>
-			<Dropdown.Menu className={categoryDropdownMenu}>
+			<Dropdown.Menu flip={true} className={categoryDropdownMenu}>
 				{isCategoryFilterActive(categoryToggleText) && (
 					<Dropdown.Item
 						onClick={handleCategoryClick}

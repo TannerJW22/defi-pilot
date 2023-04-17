@@ -1,7 +1,7 @@
 import { tailbreeze } from "tailbreeze";
 
 const configPanel = tailbreeze({
-	size: "w-1/6 min-w-[290px]",
+	size: "w-1/6 min-w-[290px] pt-[16vh]",
 	background: "bg-zinc-950",
 	border: "shadow shadow-zinc-500 drop-shadow-lg",
 	children: "flex flex-col items-center gap-7 py-7 px-5",

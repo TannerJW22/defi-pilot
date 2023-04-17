@@ -32,7 +32,7 @@ export function RarityDropdown() {
 			<Dropdown.Toggle className={`${rarityDropdown} ${rarityToggleStyle}`}>
 				{rarityToggleText}
 			</Dropdown.Toggle>
-			<Dropdown.Menu className={rarityDropdownMenu}>
+			<Dropdown.Menu flip={true} className={rarityDropdownMenu}>
 				{isRarityFilterActive(rarityToggleText) && (
 					<Dropdown.Item
 						onClick={handleRarityClick}

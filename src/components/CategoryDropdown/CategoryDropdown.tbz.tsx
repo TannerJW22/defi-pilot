@@ -15,7 +15,7 @@ const categoryDropdownMenu = tailbreeze({
 });
 
 const categoryDropdownOption = tailbreeze({
-	size: "h-[30px]",
+	size: "h-[28px]",
 	text: "text-base text-white text-blue6",
 	hover: "hover:bg-opacity-20 hover:bg-zinc-300",
 });
