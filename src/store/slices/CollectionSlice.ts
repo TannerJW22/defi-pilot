@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { localDb_full } from "../../components/App/App";
 
 export type NftData = {
 	name: string;
@@ -19,7 +18,7 @@ export type OpenLootCollection = {
 
 export interface CollectionSliceState {
 	searchTerm: string;
-	collection: OpenLootCollection;
+	collection: NftData[];
 }
 
 const _collectionSlice = {

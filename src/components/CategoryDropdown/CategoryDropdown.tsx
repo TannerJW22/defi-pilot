@@ -56,7 +56,7 @@ export function CategoryDropdown() {
 				<Dropdown.Item
 					onClick={handleCategoryClick}
 					className={categoryDropdownOption}
-					href="decoration"
+					href="decorations"
 				>
 					Decoration
 				</Dropdown.Item>
@@ -70,7 +70,7 @@ export function CategoryDropdown() {
 				<Dropdown.Item
 					onClick={handleCategoryClick}
 					className={categoryDropdownOption}
-					href="footsteps"
+					href="footstep"
 				>
 					Footsteps
 				</Dropdown.Item>

@@ -17,7 +17,7 @@ import {
 	bgImage,
 } from "./CollectionMap.tbz";
 import NftCard from "../NftCard/NftCard";
-import { localDb_full, localDb } from "../App/App";
+import { localDb } from "../../utils/local-db";
 import { NftData } from "../../store";
 
 type CollectionCounter = {
