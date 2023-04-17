@@ -1,6 +1,6 @@
 {
 	"name": "open-loot-dashboard",
-	"homepage": "https://tannerjw22.github.io/nft-dashboard/",
+	"homepage": "https://tannerjw22.github.io/nft-dashboard",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
@@ -8,9 +8,7 @@
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"server": "tsc && nodemon server.js",
-		"preview": "vite preview",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d dist"
+		"preview": "vite preview"
 	},
 	"dependencies": {
 		"@reduxjs/toolkit": "^1.9.3",
