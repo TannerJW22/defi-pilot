@@ -47,7 +47,7 @@ export function CollectionMap() {
 
 		return (
 			<Container className={demoScreenContainer}>
-				<img className={bgImage} src="/img/bigtime-wallpaper.png" />
+				<img className={bgImage} src="img/bigtime-wallpaper.png" />
 				<div className={demoCard}>
 					<div className={partnerBanner}>
 						<img className={partnerLogo} src="https://openloot.com/images/open-loot-logo.svg" />
@@ -57,11 +57,11 @@ export function CollectionMap() {
 						/>
 						<img
 							className={`${partnerLogo} w-[10rem] h-[4.5rem] `}
-							src="/img/worldshards-logo.png"
+							src="img/worldshards-logo.png"
 						/>
 					</div>
 					<div className="flex gap-7 px-5 py-3">
-						<img className={cardImg} src="/img/ol-collection.jpg" />
+						<img className={cardImg} src="img/ol-collection.jpg" />
 						<div className={cardBody}>
 							<h1 className={cardTitle}>Become a NFT Power User with Defi-Pilot</h1>
 							<div className="text-base">

@@ -90,7 +90,7 @@ export default function NftCard({ ...NftCardProps }: NftCardProps) {
 					<div className={buttonGroup}>
 						<a href={openLootLink}>
 							<button className={olButton}>
-								<img className="h-[28px]" src="/img/open-loot-logo.png" alt="open-loot-logo" />
+								<img className="h-[28px]" src="img/open-loot-logo.png" alt="open-loot-logo" />
 								View Listings
 							</button>
 						</a>

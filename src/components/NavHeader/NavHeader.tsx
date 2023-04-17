@@ -14,8 +14,8 @@ export function NavHeader() {
 	return (
 		//
 		<div className={navHeader}>
-			<a href="/">
-				<img className={navLogo} alt="" src="/img/defi-pilot-logo.png" />
+			<a href="/defi-pilot">
+				<img className={navLogo} alt="" src="img/defi-pilot-logo.png" />
 			</a>
 
 			<div className={navButtonDiv}>
